@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-size: x-large;
+}
+
+nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  background: rgba(62, 61, 61, 0.324);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+nav div {
+  width: 100%;
+  height: 2.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav div span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav div span a {
+  color: white;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+nav div span a.cta {
+  background-color: #a0a0a04d;
+  border: 0.5pt solid #858585;
+  padding: 0.3em 0.3em;
+  border-radius: 50px;
+}
+
+nav div span a.cta:hover {
+  background-color: #5d9eff;
+  border: none;
+}
+
+main {
+  padding: 50px 0 0 0;
+}
+
+section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 1024px;
+}
+
+section div.text-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+section div.text-wrapper.left {
+  text-align: left;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+section div.text-wrapper.right {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: right;
+}
+
+section div.text-wrapper div {
+  width: 80%;
+}
+
+section div.text-wrapper h2 {
+  font-family: Open Sans, sans-serif;
+  color: white;
+  font-size: 2em;
+}
+
+section div.media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+.welcome-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.welcome-wrapper h1 {
+  font-family: Open Sans, sans-serif;
+  color: white;
+}
+
+.welcome-wrapper h1.title {
+  font-size: 3.5em;
+  color: #f0f0f0;
+}
+
+.welcome-wrapper img {
+  width: 100%;
+}
+
+.sub-header {
+  background-color: #111111;
+}
+
+.sub-header .image-wrapper {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sub-header .image-wrapper img {
+  padding: 60px 0;
+  width: 70%;
+}
+
+section.video-section .video-wrapper video {
+  padding: 60px 0;
+  width: 70%;
+}
+
+section.side-faces {
+  background: #111111;
+}
+
+section.side-faces img {
+  width: 70%;
+  height: auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+section.pre-gallery {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("/media/iwatchbackherorotated.jpg");
+  background-repeat: no-repeat;
+  background-position: 125% 0%;
+  background-size: contain;
+}
+
+section.pre-gallery span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+section.pre-gallery span h2 {
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-size: 2em;
+}
+
+section.gallery-wrapper {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #111111;
+  padding: 50px 0;
+}
+
+section.gallery-wrapper .gallery {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+section.gallery-wrapper .gallery article.product-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-size: 20px;
+  max-width: 380px;
+  min-width: 250px;
+  -ms-flex: 1 1 250px;
+      flex: 1 1 250px;
+  margin: 5%;
+  background-color: #111111;
+}
+
+section.gallery-wrapper .gallery article.product-card img {
+  width: 70%;
+  margin: 0 0 30px 0;
+}
+
+section.gallery-wrapper .gallery article.product-card span {
+  background-color: #111111;
+  font-size: 1em;
+  text-align: center;
+  width: 90%;
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: large;
+  }
+  section {
+    min-height: 600px;
+  }
+  section.pre-gallery {
+    background: initial;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: small;
+  }
+  section.welcome-wrapper .wrapper {
+    overflow: hidden;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section.welcome-wrapper .wrapper img {
+    width: 150%;
+  }
+  section {
+    margin: 30px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 800px;
+  }
+  section div.text-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  section div.text-wrapper div {
+    width: 90%;
+  }
+  section div.text-wrapper.left, section div.text-wrapper.right {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section div.text-wrapper h2 {
+    font-family: Open Sans, sans-serif;
+    color: white;
+    font-size: 2em;
+  }
+  section div.media {
+    width: 100%;
+  }
+  .sub-header {
+    background-color: #111111;
+    padding-top: 70px;
+  }
+  .sub-header .image-wrapper {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .sub-header .image-wrapper img {
+    padding: 60px 0;
+    width: 70%;
+  }
+  section.pre-gallery {
+    background-image: none;
+  }
+  section.gallery-wrapper {
+    overflow: hidden;
+  }
+  section.gallery-wrapper .gallery {
+    width: 100%;
+    background-color: #111111;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+    -ms-scroll-snap-type: x mandatory;
+        scroll-snap-type: x mandatory;
+    -ms-flex-wrap: initial;
+        flex-wrap: initial;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    overflow-x: scroll;
+  }
+  section.gallery-wrapper .gallery article.product-card {
+    min-height: auto;
+    margin: 40px 0;
+    min-width: 380px;
+    width: 380px;
+    scroll-snap-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
