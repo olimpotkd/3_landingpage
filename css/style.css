@@ -394,8 +394,7 @@ section.gallery-wrapper .gallery article.product-card span {
   section.gallery-wrapper .gallery article.product-card {
     min-height: auto;
     margin: 40px 0;
-    min-width: 380px;
-    width: 380px;
+    min-width: 340px;
     scroll-snap-align: center;
   }
 }
